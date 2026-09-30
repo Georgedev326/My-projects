@@ -10,7 +10,7 @@
     float height ; //%f
     double Bank ; //%lf
     char Phone[20]; //%s
-
+//User input for the variables
     printf("What is your height(in meters)? \t");
     scanf("%f", &height);
 
@@ -19,7 +19,7 @@
 
     printf("What is your phone number? \t");
     scanf("%s", Phone);
-
+//Responce to the user with the values of the variables
     printf("My height is %.2f m\n", height);
     printf("My bank balance is Ksh.%.2lf\n", Bank);
     printf("My phone number is %s\n", Phone);

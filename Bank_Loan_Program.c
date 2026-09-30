@@ -12,7 +12,9 @@ int main(){
     scanf("%f", &age);
     printf("Enter your income: \t", income);
     scanf("%f", &income);
-
+/* if the age is greater than or it is equal ro 21yrs and the customer has an annual inome of 21000 or more,
+ then the customer qualifies for a loan. If the age is less than 21yrs and the income is less than 21000,
+  then the customer does not qualify for a loan.*/
     if(age >=21 && income >= 21000){
         printf("congratulations! You qualify for a loan  \n");
     }

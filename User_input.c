@@ -14,7 +14,7 @@ int main(){
     float marks ; //%f
     double pi ; //%lf
     char name [15] ; //%s
-
+//User input for the variables
 printf("What is your name: \t");
 scanf("%s", &name);
 
@@ -30,7 +30,7 @@ scanf("%lf", &pi);
 printf("Enter your grade: \t");
 scanf(" %c", &grade);
 
-
+//Responce to the user with the values of the variables
 printf("The grade is %c\n", grade);
 printf("My name is %s\n", name);
 printf("I am %d years old\n", age );

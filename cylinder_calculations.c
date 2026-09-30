@@ -9,7 +9,7 @@ Date:25/9/2026
 int main(){
     float raduis, height, volumee, surfaceArea; //%f
     const float pi =3.142; //value of pi
-
+//User is to input the height and radius of the cylinder in centimeters
     printf("What is the height of the cylinder(in centimeters)? \t");
     scanf("%f", &height);
 
@@ -19,7 +19,7 @@ int main(){
     //Formula for volume and surface area of a cylinder
     volumee = pi * raduis * raduis * height;
     surfaceArea = (2 * pi * raduis * raduis) + (2 * pi * raduis * height);
-
+//Responce to the user with the volume and surface area of the cylinder
     printf("Radius =%.2f cm\n", raduis);
     printf("Height =%.2f cm\n", height);
     printf("The volume of the cylinder is: %.2f cubic centimeters\n", volumee);

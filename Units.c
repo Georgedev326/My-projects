@@ -5,7 +5,7 @@ Description: Units offered in semester one
 Date: 12/9/2026
 */
 #include <stdio.h>
-
+//This program displays all the units offered in semester one for a student taking Bsc. IT
 int main(){
     printf("Units offered in semester one:\n");
     printf("1. Fundamentals of Digital Technology and artificial \n");
