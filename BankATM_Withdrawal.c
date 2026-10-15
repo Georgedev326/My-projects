@@ -12,10 +12,10 @@ int main(){
     double balance = 10000, amount;
 
     while(balance >0){
-        printf("Enter the amount to withdraw: ");//The user here is prompted to enter amount to withdraw
+        printf("Enter the amount to withdraw: Ksh ");//The user here is prompted to enter amount to withdraw
         scanf("%lf", &amount);
         balance = balance -amount; //subtracts the amount from the balance
-        printf("Your new balance is: %.2lf\n", balance);//this shows the new balance after the withdrawal
+        printf("Your new balance is: Ksh %.2lf\n", balance);//this shows the new balance after the withdrawal
     }
     printf("===============================\n");
     printf("Your Balance is 0. Please deposit money to continue.\n");
