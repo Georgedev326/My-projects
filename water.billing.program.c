@@ -7,7 +7,6 @@ Date: 2/10/2026
 # include <stdio.h>
 //function protoytype
 float calclulateBill(float unit_number);
-
 int main(){
     float unit_number, result, final_amount;
     printf("Enter the number of units consumed: \t");
@@ -35,7 +34,6 @@ float calclulateBill(float unit_number){
     }
     else {
         bill = unit_number * 30;
-    
     }
     return bill;
 }
