@@ -20,17 +20,17 @@ do{
         scanf("%d", &guess);
         
         if(guess > secret)
-        printf("Too high!\n");
+        printf("Too high!\n");//if the guess is greater than the secret number
 
         else if(guess < secret)
-        printf("Too low!\n");
+        printf("Too low!\n");// if the guess is less than the secret number
 
         else 
-           printf("Congratulations!\n");
+           printf("Congratulations!\n");//if the guess is equal to the secret number
            
            
     }while(guess != secret);
-//the games endat this oint if the user inputs the correct number
+//the games ends at this point, if the user inputs the correct number
     return 0;
 
 }
