@@ -1,7 +1,7 @@
 /*
 Name: GEORGE KIMANI
 REG: CT100/G/26222/25
-Description: A simple electricity billing program 
+Description: A simple to calculate fare
 Date: 3/11/2026
 */
 # include <stdio.h>
@@ -28,5 +28,4 @@ int main(void){
  float calculateFare(float distance){
 	 
 return distance * 50;
-
 }
