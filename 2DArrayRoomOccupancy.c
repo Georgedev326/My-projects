@@ -15,7 +15,7 @@ int main() {
 
     srand(time(NULL));        // will seed the random generator
 
-
+    printf("\n  HOTEL ROOM OCCUPANCY MANAGEMENT SYSTEM \n");
     // fillin the array with random 1s and 0s
     for (i = 0; i < 5; i++) {
         for (j = 0; j < 10; j++) {
