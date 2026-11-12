@@ -16,7 +16,7 @@ int main(){
     result = calculateBill(unitnumber);
     finalamount= result;
     
-    printf("\nKUTUS ELECTRIICTY BULLING SYSTEM\n");
+    printf("\nKUTUS ELECTRIICTY BILLING SYSTEM\n");
     printf("====================\n");
 
     printf("The total bill is: %.2f \n",finalamount);
