@@ -2,7 +2,7 @@
  Name: George Kimani
  REG: CT100/G/26222/25
  Description:A vehicle registration report program using C structures
- Date : 22/9/2026
+ Date : 27/11/2026
  */
 
 #include<stdio.h>
