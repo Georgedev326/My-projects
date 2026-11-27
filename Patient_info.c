@@ -1,7 +1,7 @@
 /*
 Name: George Kimani
 REG: CT100/G/26222/25
-Description: A patient admission report program - C Files
+Description: A patient admission report program - C Structures
 Date: 27/11/2026
 */
 #include <stdio.h>
