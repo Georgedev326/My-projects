@@ -45,3 +45,12 @@ printf("Daily Rental Fee  :KShs%.2f\n", v.rentalCharge);
 
     return 0;
 }
+/*
+ State two applications of structures in C programming. (2 Marks) 
+
+1. Storing related data:
+ Structures are used to group different data types into one record, e.g., student details (name, registration number, and marks).
+
+2. Handling records: 
+Structures are used in managing records such as employees, vehicles, and customer information in a program.
+*/
